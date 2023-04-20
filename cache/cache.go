@@ -4,8 +4,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/opensourceways/community-robot-lib/utils"
 	filecache "github.com/opensourceways/repo-file-cache/sdk"
+	"github.com/opensourceways/server-common-lib/utils"
 	"github.com/sirupsen/logrus"
 )
 

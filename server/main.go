@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/opensourceways/community-robot-lib/logrusutil"
+	"github.com/opensourceways/server-common-lib/logrusutil"
 	"github.com/sirupsen/logrus"
 
 	"github.com/opensourceways/repo-owners-cache/cache"
