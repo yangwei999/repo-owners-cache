@@ -30,7 +30,7 @@ func (c *Cache) SyncPerDay(start time.Duration) func() {
 	c.t = utils.NewTimer()
 
 	go func(delay time.Duration) {
-		c.t.Start(c.refresh, 24*time.Hour, delay)
+		c.t.Start(c.refresh, 4*time.Hour, delay)
 	}(start)
 
 	return c.t.Stop

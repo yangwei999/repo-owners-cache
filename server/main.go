@@ -89,7 +89,7 @@ func main() {
 
 	c := cache.NewCache(o.endpoint, logrus.NewEntry(logrus.StandardLogger()))
 
-	stop := c.SyncPerDay(o.getStartTime())
+	stop := c.SyncPerDay(0)
 
 	defer stop()
 
