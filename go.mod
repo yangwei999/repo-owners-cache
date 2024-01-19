@@ -5,6 +5,7 @@ go 1.16
 require (
 	github.com/beego/beego/v2 v2.0.4 // indirect
 	github.com/emicklei/go-restful v2.16.0+incompatible // indirect
+	github.com/nats-io/jwt v1.2.2 // indirect
 	github.com/nats-io/jwt/v2 v2.0.1 // indirect
 	github.com/nats-io/nats-server/v2 v2.1.9 // indirect
 	github.com/nats-io/nkeys v0.4.7 // indirect
