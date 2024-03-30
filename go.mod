@@ -7,7 +7,7 @@ require (
 	github.com/opensourceways/server-common-lib v0.0.0-20240206030521-a8e5c88d6816
 	github.com/sirupsen/logrus v1.9.3
 	google.golang.org/grpc v1.58.3
-	google.golang.org/protobuf v1.32.0
+	google.golang.org/protobuf v1.33.0
 	k8s.io/apimachinery v0.29.1
 	sigs.k8s.io/yaml v1.4.0
 )
